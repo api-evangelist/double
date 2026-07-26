@@ -1,0 +1,14 @@
+{
+  "repo": "double",
+  "feeds": [
+    {
+      "source": "https://withdouble.com/faq",
+      "feed_url": "https://withdouble.com/faq",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

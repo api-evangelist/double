@@ -1,8 +1,26 @@
 aid: double
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/double.png
 name: Double
-description: 'Double is a company surfaced as a portfolio company of index-ventures, initialized-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: future-of-work. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Double is a New York-based future-of-work company that pairs busy executives
+  and founders with highly vetted, US-based remote executive assistants, augmented by
+  an AI copilot (Mingo) that helps assistants summarize tasks, draft communications,
+  prompt follow-up questions, and report time. Founded in 2018 by the former Sunrise
+  Calendar team (Alice Default, Christophe Lamperti, Pierre-Elie Fauche), Double delivers
+  operations, marketing, scheduling, inbox, and administrative delegation through a
+  managed platform and shared secure workflows built around a per-client 1Password vault.
+  Double is not a public API provider; this API Evangelist profile tracks the company''s
+  public web properties and domain security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/double/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Future Of Work
+- Executive Assistant
+- Virtual Assistant
+- Productivity
+- Delegation
+- AI Assistant
+- Remote Work
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/double-domain-security.yml
 - type: Website
-  url: http://withdouble.com
+  url: https://withdouble.com
+- type: Pricing
+  url: https://withdouble.com/pricing
+- type: SignUp
+  url: https://app.withdouble.com
+- type: TermsOfService
+  url: https://withdouble.com/terms
+- type: PrivacyPolicy
+  url: https://withdouble.com/privacy
+- type: Support
+  url: https://withdouble.com/faq
+- type: Blog
+  url: https://withdouble.com/blog
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
